@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4bd7d1e653.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="login-con">
+      <h2 class="center">Login</h2>
+      <form action="#" id="login-form" class="text-primary">
+        <div class="form-field">
+          <label for="username"><h5>Username</h5></label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+            class="placeholder"
+          />
+          <p class="alert-mes">Error</p>
+        </div>
+        <div class="form-field">
+          <label for="loginPassword"><h5>Password</h5></label>
+          <input
+            type="password"
+            id="loginPassword"
+            placeholder="Enter Password"
+          />
+          <p class="alert-mess">Error</p>
+        </div>
+        <div class="form-fields">
+          <i class="far fa-eye-slash"></i>
+
+          <label class="sh">Show/hide Password</label>
+        </div>
+        <button class="btn" type="submit">Sign in</button>
+      </form>
+      <div class="reset-pass">
+        <p><a href="#">Forgot Username or Password</a></p>
+      </div>
+      <form action=" " class="form-req">
+        <div class="form-field">
+          <input
+            type="email"
+            name="" required
+            id="requestEmail"
+            placeholder="Enter Your Email" 
+          />
+          <p class="alert-message">Error</p>
+        </div>
+        <button class="btn red" type="submit">Request</button>
+      </div>
+      </form>
+     
+    <script src="/script.js"></script>
+  </body>
+</html>
